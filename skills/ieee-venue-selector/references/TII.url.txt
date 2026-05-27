@@ -1,0 +1,5 @@
+https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics
+
+Verified: 2026-05-27
+Source: IEEE Industrial Electronics Society journal page
+Notes: Official TII page loaded with limited WebFetch text; matrix fields marked `未确认` require manual author-page verification.

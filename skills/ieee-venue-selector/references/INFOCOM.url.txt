@@ -1,0 +1,5 @@
+https://infocom2026.ieee-infocom.org/call-papers
+
+Verified: 2026-05-27
+Source: IEEE Communications Society conference CFP page
+Notes: Current INFOCOM 2026 CFP page was WebFetch-verified; listed short domain `https://infocom.ieee.org/` did not resolve during shell DNS check.

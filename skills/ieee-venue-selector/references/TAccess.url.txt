@@ -1,0 +1,5 @@
+https://ieeeaccess.ieee.org/
+
+Verified: 2026-05-27
+Source: IEEE Access journal page
+Notes: IEEE Access landing page loaded; open-access APC and article-processing constraints must be checked against the live page before submission.

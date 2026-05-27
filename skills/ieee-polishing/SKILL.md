@@ -37,7 +37,12 @@ This skill polishes existing English IEEE manuscripts without changing the autho
 2. Confirm whether the user wants diff-style revisions or clean replacement text.
 3. Preserve technical claims, numeric values, equations, citations, and limitations unless the author explicitly changes them.
 4. Expand abbreviations at first use and keep later uses consistent, marking unresolved first uses as `AUTHOR_INPUT_NEEDED`.
-5. Normalize passive-voice balance, SI units, ranges, capitalization, hyphenation, contractions, and dash usage to IEEE house style.
+5. Apply five concrete house-style rules in order:
+   a. **Passive voice ratio**: in any paragraph >120 words, target ≤40% passive sentences; flag paragraphs that exceed.
+   b. **First-use abbreviation expansion**: every abbreviation must appear in parenthetical form on first occurrence (e.g., "Deep Neural Network (DNN)"), then unparenthesized thereafter.
+   c. **SI units**: numeric value and SI unit separated by a non-breaking space (e.g., `5 ms`, `220 V`), never `5ms`.
+   d. **Figure / table callouts**: `Fig. N` and `Table N` (not `Figure N`, not `Tab. N`).
+   e. **Ranges and ratios**: en-dash for numeric ranges (`pp. 12–18`), not hyphen; ratios use `:` or "to" not `/`.
 6. Replace non-IEEE surface forms with IEEE forms, including `Fig. 1`, `Table I`, equation `(1)`, and numeric `[N]` citations.
 7. Flag unsupported prose flourishes, overclaims, missing references, or unverified comparisons with `AUTHOR_INPUT_NEEDED`.
 8. Return the requested diff-style revision or clean replacement text plus a compact issue list.
@@ -45,10 +50,12 @@ This skill polishes existing English IEEE manuscripts without changing the autho
 
 ## Output contract
 
-- Produces revised Markdown, LaTeX, or plain text in the same format as the input unless the user requests another format.
-- Emits either a diff-style block or clean replacement block, followed by `IEEE_STYLE_NOTES`.
-- Lists each `AUTHOR_INPUT_NEEDED` item with the exact phrase, location, and reason.
-- Done means the prose can be returned to `ieee-writing` or passed to `ieee-template` without unresolved style-only issues.
+The skill emits one of two output formats based on the user's chosen mode:
+
+- **Diff mode** (default): unified-diff syntax with `---` (original) and `+++` (revised) markers per affected paragraph. Each diff hunk is preceded by a one-line rationale citing which house-style rule triggered the change (e.g., `# rule: first-use abbreviation expansion`).
+- **Clean-replacement mode** (when user requests): emits the revised text directly, with a separate `## Issue list` section enumerating every change with rule reference.
+
+Both modes preserve every technical claim, every numeric value, every author-name and citation key exactly.
 
 ## Scope boundary
 

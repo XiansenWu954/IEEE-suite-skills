@@ -4,13 +4,31 @@ Mode: diff-style revision.
 
 Text: Figure 1 demonstrates that our DNN method lowers latency by 18 percent over 5ms windows. The DNN was trained on public traces [trace].
 
-## Expected output
+## Expected output (diff mode)
 
-The skill returns a diff-style revision that changes `Figure 1` to `Fig. 1`, expands `DNN` at first use, normalizes `18%` and `5 ms`, and flags `[trace]` for numeric citation assignment.
+Input paragraph:
+> Figure 1 demonstrates that our DNN method lowers latency by 18 percent over 5ms windows. The DNN was trained on public traces [trace].
 
-Expected note:
+Diff output:
 
-`AUTHOR_INPUT_NEEDED: replace [trace] with an assigned numeric citation from ieee-citation.`
+```diff
+# rule: figure callout shorthand
+--- Figure 1 demonstrates
++++ Fig. 1 demonstrates
+# rule: first-use abbreviation expansion
+--- our DNN method lowers
++++ our Deep Neural Network (DNN) method lowers
+# rule: SI unit spacing
+--- 5ms windows
++++ 5 ms windows
+# rule: numeric vs spelled-out percentage (no change — both acceptable; flagged for author)
+--- 18 percent
++++ 18 percent  (NOTE: consider 18 % per ESM §III)
+```
+
+Followed by:
+
+`AUTHOR_INPUT_NEEDED: replace [trace] with assigned numeric citation from ieee-citation.`
 
 ## Pass criteria
 

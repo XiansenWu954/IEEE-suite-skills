@@ -1,0 +1,5 @@
+https://www.ieeecss.org/publication/transactions-automatic-control
+
+Verified: 2026-05-27
+Source: IEEE Control Systems Society journal page
+Notes: Official TAC page loaded; PaperPlaza and CSS author links are the current authority for submission workflow and page-limit checks.

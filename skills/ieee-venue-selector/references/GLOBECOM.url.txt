@@ -1,0 +1,5 @@
+https://globecom2026.ieee-globecom.org/
+
+Verified: 2026-05-27
+Source: IEEE Communications Society conference page
+Notes: Current GLOBECOM 2026 official page loaded behind a JavaScript support page; listed short domain `https://globecom.ieee.org/` did not resolve during shell DNS check.

@@ -1,0 +1,5 @@
+https://www.comsoc.org/publications/journals/ieee-tcom
+
+Verified: 2026-05-27
+Source: IEEE Communications Society journal page
+Notes: URL redirects to the current IEEE Transactions on Communications landing page; matrix fields marked `未确认` require manual policy-page verification.

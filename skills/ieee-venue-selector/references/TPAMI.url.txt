@@ -1,0 +1,5 @@
+https://www.computer.org/csdl/journal/tp
+
+Verified: 2026-05-27
+Source: IEEE Computer Society CSDL journal page
+Notes: Official TPAMI CSDL page loaded; WebFetch exposed limited page text, so page-limit and fee details should be verified manually before submission.

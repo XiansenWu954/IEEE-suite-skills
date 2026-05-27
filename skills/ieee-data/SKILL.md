@@ -32,15 +32,16 @@ This skill drafts IEEE Research Reproducibility-aligned data and code availabili
 
 ## Workflow
 
-1. Confirm that the target is an IEEE journal, IEEE Transactions, or IEEE conference and stop with a venue-mismatch note if it is not.
-2. Inventory every data, code, model, documentation, and protocol artifact needed to verify or reproduce the work.
-3. Classify each artifact as open, restricted, embargoed, proprietary, third-party, not generated, or not applicable.
-4. Select a DOI-capable host from IEEE DataPort, Zenodo, Figshare, Harvard Dataverse, or a venue-approved repository based on artifact size, access controls, community fit, and submission integration.
-5. Reject Dropbox, personal Google Drive, and personal GitHub repositories without a DOI-backed release as final persistent hosts.
-6. Recommend artifact licenses by separating code licenses from data licenses and naming trade-offs for reuse, attribution, patent terms, commercial use, and restriction policy.
-7. Draft a data availability statement that names the repository, DOI status, access terms, restriction rationale, and any required approval pathway.
-8. Draft a separate code availability statement that names the repository, release or DOI, license, dependency notes, and execution scope.
-9. Emit `AUTHOR_INPUT_NEEDED: <clear question>` for any missing DOI, license choice, repository decision, or restriction detail needed before submission.
+1. Confirm that the target is an IEEE journal, IEEE Transactions, IEEE-cosponsored conference, or IEEE Letter.
+2. If the target venue is not an IEEE journal, IEEE-cosponsored conference, or IEEE Letter, emit `NON_IEEE_VENUE_REQUEST: <named venue>` and refer the user to that venue's data-availability guidance. Stop.
+3. Inventory every data, code, model, documentation, and protocol artifact needed to verify or reproduce the work.
+4. Classify each artifact as open, restricted, embargoed, proprietary, third-party, not generated, or not applicable.
+5. Select a DOI-capable host from IEEE DataPort, Zenodo, Figshare, Harvard Dataverse, or a venue-approved repository based on artifact size, access controls, community fit, and submission integration.
+6. Reject Dropbox, personal Google Drive, and personal GitHub repositories without a DOI-backed release as final persistent hosts.
+7. Recommend artifact licenses by separating code licenses from data licenses and naming trade-offs for reuse, attribution, patent terms, commercial use, and restriction policy.
+8. Draft a data availability statement that names the repository, DOI status, access terms, restriction rationale, and any required approval pathway.
+9. Draft a separate code availability statement that names the repository, release or DOI, license, dependency notes, and execution scope.
+10. Emit `AUTHOR_INPUT_NEEDED: <clear question>` for any missing DOI, license choice, repository decision, or restriction detail needed before submission.
 
 ## Output contract
 

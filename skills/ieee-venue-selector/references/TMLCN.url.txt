@@ -1,0 +1,5 @@
+https://www.comsoc.org/publications/journals/ieee-tmlcn
+
+Verified: 2026-05-27
+Source: IEEE Communications Society journal page
+Notes: Journal page loaded; scope covers machine learning and AI methods for communications and networking, with reproducible code/data sharing encouraged.

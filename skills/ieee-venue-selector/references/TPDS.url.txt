@@ -1,0 +1,5 @@
+https://www.computer.org/csdl/journal/td
+
+Verified: 2026-05-27
+Source: IEEE Computer Society CSDL journal page
+Notes: Official TPDS CSDL page loaded; WebFetch exposed limited page text, so submission-day page-limit and fee checks remain required.

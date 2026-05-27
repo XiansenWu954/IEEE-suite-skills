@@ -1,0 +1,5 @@
+https://2026.ieee-icra.org/contribute/final-paper-submission-instructions/
+
+Verified: 2026-05-27
+Source: IEEE Robotics and Automation Society conference author instructions page
+Notes: Final paper instructions page loaded; contributed ICRA 2026 papers use PaperPlaza and an 8-page proceedings limit, with separate handling for transferred IEEE RAS journal papers.
