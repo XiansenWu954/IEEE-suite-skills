@@ -1,0 +1,5 @@
+https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-graphics-for-your-article/file-formatting/
+
+Verified: 2026-05-27
+Source: IEEE Author Center
+Notes: Live page verified; records accepted graphics formats, file naming guidance, and font embedding/type-size guidance for graphics.

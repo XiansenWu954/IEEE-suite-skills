@@ -1,0 +1,5 @@
+https://github.com/cookjohn/ieee-skills
+
+Verified: 2026-05-27
+Source: GitHub
+Notes: Complementary IEEE Xplore browser automation project; cited only in Integration, not as IEEE policy authority.

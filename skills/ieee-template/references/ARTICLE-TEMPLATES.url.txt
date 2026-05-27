@@ -1,0 +1,5 @@
+https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/
+
+Verified: 2026-05-27
+Source: IEEE Author Center
+Notes: Live page verified; it directs authors to the interactive IEEE Template Selector.

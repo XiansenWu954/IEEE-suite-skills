@@ -1,0 +1,5 @@
+https://ctan.org/pkg/ieeetran
+
+Verified: 2026-05-27
+Source: CTAN
+Notes: Same CTAN package page verified; IEEEtran.bst is part of the IEEEtran BibTeX style package and the local TeX Live copy records Version 1.14 (2015/08/26).

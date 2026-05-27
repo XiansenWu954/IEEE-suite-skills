@@ -1,0 +1,5 @@
+https://www.crossref.org
+
+Verified: 2026-05-27
+Source: Crossref
+Notes: Homepage loaded for DOI metadata authority.

@@ -1,0 +1,16 @@
+# IEEE journal page-limit quick matrix for ieee-writing.
+# Use this as a drafting triage aid only; verify the venue page again on submission day.
+# Columns: venue,full_name,page_limit_regular,abstract_word_limit,blind,overlength_fee,submission_system,supplementary_policy,authoritative_url,verification_note
+venue,full_name,page_limit_regular,abstract_word_limit,blind,overlength_fee,submission_system,supplementary_policy,authoritative_url,verification_note
+TMC,IEEE Transactions on Mobile Computing,14,250,single,AUTHOR_INPUT_NEEDED,IEEE Author Portal,allowed,https://www.computer.org/csdl/journal/tm/write-for-us/15075,# Verified 2026-05-27 via redirecting Computer Society page; JS-heavy page requires venue-day confirmation
+TON,IEEE/ACM Transactions on Networking,16,150-250,single,$220/page over 10 pages,IEEE Author Portal,allowed,https://sites.google.com/view/ieee-acm-ton/submissions,# Verified 2026-05-27 via venue submissions page
+TPDS,IEEE Transactions on Parallel and Distributed Systems,12,250,single,AUTHOR_INPUT_NEEDED,IEEE Author Portal,allowed,https://www.computer.org/csdl/journal/td,# Verified 2026-05-27 via Computer Society page; JS-heavy page requires venue-day confirmation
+TMLCN,IEEE Transactions on Machine Learning in Communications and Networking,AUTHOR_INPUT_NEEDED,250,single,AUTHOR_INPUT_NEEDED,IEEE Author Portal,allowed,https://www.comsoc.org/publications/journals/ieee-tmlcn,# Verified 2026-05-27 via ComSoc journal page; public page did not expose exact limit
+TWC,IEEE Transactions on Wireless Communications,15,250,single,AUTHOR_INPUT_NEEDED,IEEE Author Portal,allowed,https://www.comsoc.org/publications/journals/ieee-twc,# Verified 2026-05-27 via ComSoc journal page
+TCOM,IEEE Transactions on Communications,15,250,single,AUTHOR_INPUT_NEEDED,IEEE Author Portal,allowed,https://www.comsoc.org/publications/journals/ieee-tcom,# Verified 2026-05-27 via redirect to ComSoc journal page
+TSP,IEEE Transactions on Signal Processing,13,200,single,AUTHOR_INPUT_NEEDED,Manuscript Central,allowed,https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing,# Verified 2026-05-27 via SPS journal page
+TPAMI,IEEE Transactions on Pattern Analysis and Machine Intelligence,18,200,single,AUTHOR_INPUT_NEEDED,IEEE Author Portal,allowed,https://www.computer.org/csdl/journal/tp,# Verified 2026-05-27 via Computer Society page; JS-heavy page requires venue-day confirmation
+TAC,IEEE Transactions on Automatic Control,12,200,single,$125/page over 12 pages,PaperPlaza,allowed,https://www.ieeecss.org/publication/transactions-automatic-control,# Verified 2026-05-27 via CSS journal page
+TVT,IEEE Transactions on Vehicular Technology,14,200,single,$220/page over 10 pages,IEEE Author Portal,allowed,https://vtsociety.org/publication/ieee-transactions-vehicular-technology,# Verified 2026-05-27 via VTS journal page and page-charge page
+TII,IEEE Transactions on Industrial Informatics,10,200,double,$250/page over 10 pages,IEEE Author Portal,allowed,https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics,# Verified 2026-05-27 via IES journal page; page loaded with JS gate but search snippet exposed current author text
+TAccess,IEEE Access,unlimited,250,single,APC applies; no overlength fee,IEEE Author Portal,allowed,https://ieeeaccess.ieee.org/,# Verified 2026-05-27 via IEEE Access page

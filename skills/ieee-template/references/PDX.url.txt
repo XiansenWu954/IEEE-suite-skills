@@ -1,0 +1,5 @@
+https://ieee-pdf-express.org/
+
+Verified: 2026-05-27
+Source: IEEE PDF eXpress
+Notes: Canonical public entry URL verified; WebFetch redirects to https://ieee-pdf-express.org/account/login?ReturnUrl=%2F for login.

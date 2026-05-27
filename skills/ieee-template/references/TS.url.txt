@@ -1,0 +1,5 @@
+https://template-selector.ieee.org/
+
+Verified: 2026-05-27
+Source: IEEE Template Selector
+Notes: Live IEEE Template Selector entry URL verified.

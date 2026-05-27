@@ -1,0 +1,5 @@
+https://ctan.org/pkg/ieeetran
+
+Verified: 2026-05-27
+Source: CTAN
+Notes: IEEEtran.bst is distributed inside the CTAN IEEEtran package; package page verified as current v1.8b.

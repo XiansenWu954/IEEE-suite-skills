@@ -1,0 +1,5 @@
+https://ctan.org/tex-archive/macros/latex/contrib/IEEEtran
+
+Verified: 2026-05-27
+Source: CTAN
+Notes: CTAN source directory verified; README states August 26, 2015 and lists IEEEtran.cls plus bare journal/conference templates.

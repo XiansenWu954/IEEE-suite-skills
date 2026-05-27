@@ -1,0 +1,5 @@
+https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-graphics-for-your-article/resolution-and-size/
+
+Verified: 2026-05-27
+Source: IEEE Author Center
+Notes: Live page verified; records single-column width 3.5 in / 88.9mm, double-column width 7.16 in / 182mm, color and grayscale raster >300dpi, and black-and-white line art >600dpi.

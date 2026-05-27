@@ -1,0 +1,5 @@
+https://www.comsoc.org/publications/journals/ieee-tnet/policies-guidelines
+
+Verified: 2026-05-27
+Source: IEEE Communications Society
+Notes: Current IEEE Transactions on Networking policies page loaded; used as the current TON/TNET authority for page length, abstract range, single-blind review, and page-charge notes.

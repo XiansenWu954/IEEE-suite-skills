@@ -1,0 +1,5 @@
+https://www.computer.org/tmc-author-information
+
+Verified: 2026-05-27
+Source: IEEE Computer Society
+Notes: URL redirected to the IEEE Computer Society CSDL TMC write-for-us page; fetch exposed limited page text, so matrix fields retain seed values where not independently visible.

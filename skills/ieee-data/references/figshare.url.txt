@@ -1,0 +1,5 @@
+https://figshare.com/
+
+Verified: 2026-05-27
+Source: Figshare
+Notes: Homepage loaded. Figshare support persistent identifier page also verified on 2026-05-27 at https://support.figshare.com/en/articles/11284801 for DOI and handle behavior.

@@ -1,0 +1,5 @@
+https://library.harvard.edu/services-tools/harvard-dataverse
+
+Verified: 2026-05-27
+Source: Harvard Library
+Notes: Official Harvard Library information page loaded; used to identify Harvard Dataverse as a repository for sharing, citing, and reusing research data.

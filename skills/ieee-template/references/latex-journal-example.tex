@@ -1,0 +1,60 @@
+\begin{filecontents*}{references.bib}
+@misc{IEEEtran2015,
+  author       = {Michael Shell},
+  title        = {{IEEEtran} LaTeX Class, Version 1.8b},
+  howpublished = {CTAN},
+  year         = {2015}
+}
+\end{filecontents*}
+
+\documentclass[journal]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{A Minimal IEEEtran Journal Article}
+
+\author{First~A.~Author,~\IEEEmembership{Member,~IEEE,}
+        and Second~B.~Author,~\IEEEmembership{Senior~Member,~IEEE}%
+\thanks{Manuscript received May 27, 2026. This example is for template validation only.}%
+\thanks{First A. Author and Second B. Author are with the Example Department, Example University.}}
+
+\markboth{IEEE Transactions Journal Template Example,~Vol.~1, No.~1, May~2026}%
+{Author \MakeLowercase{\textit{et al.}}: A Minimal IEEEtran Journal Article}
+
+\maketitle
+
+\begin{abstract}
+This minimal example demonstrates the structure of an IEEEtran journal article using BibTeX and the IEEEtran bibliography style.
+\end{abstract}
+
+\begin{IEEEkeywords}
+IEEEtran, LaTeX, template.
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+This source uses the IEEEtran class and cites the IEEEtran package record \cite{IEEEtran2015}.
+
+\section{Method}
+
+Manuscript content should be converted without changing scientific claims.
+
+\section{Conclusion}
+
+The project is ready for local compilation checks before PDF eXpress review.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\begin{IEEEbiographynophoto}{First A. Author}
+Author biographies are included for journal variants when the target publication requires them.
+\end{IEEEbiographynophoto}
+
+\begin{IEEEbiographynophoto}{Second B. Author}
+Biography content should come from the author-supplied manuscript package.
+\end{IEEEbiographynophoto}
+
+\end{document}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.openai.com/codex/plugin-manifest/v1.json",
+  "name": "ieee-suite-skills",
+  "displayName": "IEEE Suite Skills",
+  "version": "0.1.0",
+  "description": "One-stop Claude Code / Codex CLI skill suite for IEEE journal submission. 10 sub-skills covering writing, citation, figures, LaTeX templates, peer-review response, data availability, and venue selection — all anchored in the IEEE Author Center and IEEE Editorial Style Manual.",
+  "author": "XiansenWu954",
+  "license": "MIT",
+  "homepage": "https://github.com/XiansenWu954/IEEE-suite-skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XiansenWu954/IEEE-suite-skills.git"
+  },
+  "keywords": [
+    "ieee",
+    "ieee-journal",
+    "ieee-transactions",
+    "ieeetran",
+    "ieee-author-center",
+    "academic-writing",
+    "paper-writing",
+    "peer-review",
+    "latex",
+    "bibtex",
+    "claude-skills",
+    "codex-skills"
+  ],
+  "category": "Research",
+  "brandColor": "#005CC8",
+  "capabilities": [
+    "Interactive",
+    "Read",
+    "Write"
+  ],
+  "skills": [
+    { "name": "ieee-writing",         "path": "../../skills/ieee-writing" },
+    { "name": "ieee-polishing",       "path": "../../skills/ieee-polishing" },
+    { "name": "ieee-figure",          "path": "../../skills/ieee-figure" },
+    { "name": "ieee-citation",        "path": "../../skills/ieee-citation" },
+    { "name": "ieee-response",        "path": "../../skills/ieee-response" },
+    { "name": "ieee-reader",          "path": "../../skills/ieee-reader" },
+    { "name": "ieee-academic-search", "path": "../../skills/ieee-academic-search" },
+    { "name": "ieee-data",            "path": "../../skills/ieee-data" },
+    { "name": "ieee-template",        "path": "../../skills/ieee-template" },
+    { "name": "ieee-venue-selector",  "path": "../../skills/ieee-venue-selector" }
+  ],
+  "defaultPrompts": [
+    {
+      "title": "Draft an IEEE TMC abstract",
+      "prompt": "Use ieee-writing to draft a ≤250-word abstract + 5-8 keywords for an IEEE Transactions on Mobile Computing manuscript on {{topic}}."
+    },
+    {
+      "title": "Convert BibTeX to IEEEtran",
+      "prompt": "Use ieee-citation to convert this BibTeX block into IEEEtran.bst-conforming entries with month abbreviations and en-dash page ranges."
+    },
+    {
+      "title": "Reply to IEEE reviewers point-by-point",
+      "prompt": "Use ieee-response to produce a point-by-point reply to these IEEE reviewer comments. Build an R&R matrix; flag any AUTHOR_INPUT_NEEDED items."
+    },
+    {
+      "title": "Pick an IEEE venue",
+      "prompt": "Use ieee-venue-selector to recommend an IEEE journal or conference for a {{N}}-page manuscript on {{topic}} with {{data/code situation}}."
+    }
+  ],
+  "discoverabilityTags": [
+    "ieee-skills",
+    "academic-skills",
+    "paper-writing-skills"
+  ],
+  "freshnessPolicy": {
+    "reviewedOn": "2026-05-27",
+    "nextReviewDue": "2026-11-27",
+    "policy": ".briefs/freshness_policy.md"
+  }
+}

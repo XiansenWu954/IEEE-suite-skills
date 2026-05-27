@@ -1,0 +1,5 @@
+https://ctan.org/pkg/ieeetran
+
+Verified: 2026-05-27
+Source: CTAN
+Notes: CTAN package page verified; lists IEEEtran Version 1.8b. The bundled IEEEtran.cls header records 2015/08/26 V1.8b.

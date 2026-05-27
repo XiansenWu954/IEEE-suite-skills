@@ -1,0 +1,54 @@
+\begin{filecontents*}{references.bib}
+@misc{IEEEtran2015,
+  author       = {Michael Shell},
+  title        = {{IEEEtran} LaTeX Class, Version 1.8b},
+  howpublished = {CTAN},
+  year         = {2015}
+}
+\end{filecontents*}
+
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{A Minimal IEEEtran Conference Paper}
+
+\author{\IEEEauthorblockN{First A. Author}
+\IEEEauthorblockA{Example Department\\
+Example University\\
+author@example.edu}
+\and
+\IEEEauthorblockN{Second B. Author}
+\IEEEauthorblockA{Example Laboratory\\
+Example Institute\\
+second@example.edu}}
+
+\maketitle
+
+\begin{abstract}
+This minimal example demonstrates the structure of an IEEEtran conference paper using BibTeX and the IEEEtran bibliography style.
+\end{abstract}
+
+\begin{IEEEkeywords}
+IEEEtran, conference, LaTeX.
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+This source uses the IEEEtran class and cites the IEEEtran package record \cite{IEEEtran2015}.
+
+\section{Approach}
+
+Conference manuscript content should be converted without changing author meaning.
+
+\section{Conclusion}
+
+The compiled PDF should be checked locally before PDF eXpress upload.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

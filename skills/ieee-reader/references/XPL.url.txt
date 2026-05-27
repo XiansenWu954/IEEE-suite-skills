@@ -1,0 +1,5 @@
+https://ieeexplore.ieee.org/
+
+Verified: 2026-05-27
+Source: IEEE Xplore Digital Library
+Notes: WebFetch attempted at session start; the root search page exposed limited/no text to the fetcher but is linked from IEEE Author Center navigation.

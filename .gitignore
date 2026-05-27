@@ -1,0 +1,37 @@
+# Lead working files — internal creation-time briefs, not part of the public release
+.briefs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python (for any future scripts in skills/*/assets)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# LaTeX build artifacts (when downloading IEEEtran for examples)
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Node (for any link-check scripts)
+node_modules/
+package-lock.json
+
+# Local references downloads — pdfs are downloaded by .github/workflows/check-links.yml or by maintainers,
+# committed only when official + license permits redistribution. Otherwise tracked via URL only.
+skills/*/references/*.pdf.tmp

@@ -1,0 +1,50 @@
+# MIT License
+# Copyright (c) 2026 IEEE-suite-skills contributors
+#
+# Matplotlib style for IEEE-ready figures.
+# One-column width: 88.9mm / 3.5in.
+# Two-column width: 182mm / 7.16in; set per figure with fig.set_size_inches(7.16, height).
+
+figure.figsize: 3.5, 2.2
+figure.dpi: 600
+savefig.dpi: 600
+savefig.format: pdf
+savefig.bbox: tight
+savefig.pad_inches: 0.02
+
+font.family: serif
+font.serif: Times New Roman, Times, DejaVu Serif
+font.size: 8
+mathtext.fontset: dejavuserif
+
+axes.labelsize: 8
+axes.titlesize: 8
+axes.linewidth: 0.6
+axes.grid: True
+axes.axisbelow: True
+
+xtick.labelsize: 8
+ytick.labelsize: 8
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+xtick.minor.width: 0.4
+ytick.minor.width: 0.4
+xtick.direction: in
+ytick.direction: in
+
+legend.fontsize: 8
+legend.frameon: False
+legend.handlelength: 1.4
+legend.borderaxespad: 0.2
+
+lines.linewidth: 1.0
+lines.markersize: 3.0
+patch.linewidth: 0.6
+grid.linewidth: 0.4
+grid.alpha: 0.35
+
+image.cmap: cividis
+
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none
